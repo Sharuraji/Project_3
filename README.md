@@ -32,16 +32,15 @@ With the help of Flask application (app.py) we connected the database to HTML. A
 We also used API which stands for Application Programming Interface.
 With the help API we could locate the India’s geometric and analyze the crop production in different state and district. 
 
-Presentation 
+#Presentation 
 
 All the graphs and finding are summarized in the Canvas. Some of the photos in the presentation are taken from Canvas website. 
 
-Ethical Considerations
+
+#Ethical Considerations
 
 In our group we made sure to source our data (APY India.csv) to give credit to the author and acknowledge their hard work for gathering data. 
 
 Furthermore, our data is more than 300,000 samples which reduces errors and give us more flexibility to analyze data.
 
 Moreover, as a group made sure to include all team member and follow inclusion and diversity in our group meetings. 
-
-
