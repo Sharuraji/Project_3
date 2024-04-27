@@ -69,4 +69,9 @@ body {
   transform: scaleX(1);
 }
 
+.my-div {
+  width: 100%; /* Make the div extend to the full width of the screen */
+  background-color: #f0f0f0; /* Example background color */
+  /* Add other styles as needed */
+}
 
