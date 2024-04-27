@@ -25,9 +25,9 @@ app = Flask(__name__)
 def welcome():
     """List all available routes."""
     return(
-        f"Cropyear, season, production<br>"
+        f"Using the API below to get information about particular Crop in Data Replace ""CropName"" with Unique crop <br>"
         
-        f"/api/season/production<br/>" 
+        
         f"/api/season/production/cropName"
 
     )
