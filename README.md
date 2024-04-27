@@ -12,11 +12,11 @@ Dataset
 
 The dataset used in this project is sourced from Kaggle. The data shows the District, State, Crop, Crop Year, Season and Production and Yield in India from 2001 to 2020. 
 
-Data Analysis
+# Data Analysis
 
 We used Python and Panda to clean the data, filter it and get the mean of production for crop in different years and different seasons. 
 
-Visualization
+# Visualization
 1)	Bar graph shows the Arecanut Production in different years from 2015 to 2020.  
 2)	Next Bar graph shows the three-crop production in different years from 2010 to 2020. 
 3)	We used scatter plot with the use of Seaborn Python shows crop production in different years. 
@@ -25,19 +25,19 @@ Visualization
 
 
 
-Web Application
+# Web Application
 
 With the help of Flask application (app.py) we connected the database to HTML. And by having index.html we could use the browser and visualize the data. 
 
 We also used API which stands for Application Programming Interface.
 With the help API we could locate the India’s geometric and analyze the crop production in different state and district. 
 
-#Presentation 
+# Presentation 
 
 All the graphs and finding are summarized in the Canvas. Some of the photos in the presentation are taken from Canvas website. 
 
 
-#Ethical Considerations
+# Ethical Considerations
 
 In our group we made sure to source our data (APY India.csv) to give credit to the author and acknowledge their hard work for gathering data. 
 
