@@ -1,0 +1,2172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3111ccc0ddce7203fdb505ae81403388 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3111ccc0ddce7203fdb505ae81403388" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3111ccc0ddce7203fdb505ae81403388 = L.map(
+                "map_3111ccc0ddce7203fdb505ae81403388",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f966e8763060812e65fd14d68d16124e = L.tileLayer(
+                "https://mt1.google.com/vt/lyrs=m\u0026x={x}\u0026y={y}\u0026z={z}",
+                {"attribution": "Google", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f966e8763060812e65fd14d68d16124e.addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+            var marker_7dc5569e7cd329299610490ca7b36cb5 = L.marker(
+                [20.2616974, 81.38393260000001],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_5c0c8085a30fa820f219a7df7d04b512 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aed35c7f50e6ee3d2b1354f077ed6719 = $(`<div id="html_aed35c7f50e6ee3d2b1354f077ed6719" style="width: 100.0%; height: 100.0%;">City: KANKER<br>Crop: Wheat<br>Season: Rabi       <br>Production: 1581.0</div>`)[0];
+                popup_5c0c8085a30fa820f219a7df7d04b512.setContent(html_aed35c7f50e6ee3d2b1354f077ed6719);
+            
+        
+
+        marker_7dc5569e7cd329299610490ca7b36cb5.bindPopup(popup_5c0c8085a30fa820f219a7df7d04b512)
+        ;
+
+        
+    
+    
+            var marker_1f0bcd1f09bff75a71f7ecf0c95c5cc0 = L.marker(
+                [25.5940947, 85.1375645],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_681aa1e13a9adff92ca1b60b0b8fbb90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0665a71b78ba3fddeabd4db6bc6d87a7 = $(`<div id="html_0665a71b78ba3fddeabd4db6bc6d87a7" style="width: 100.0%; height: 100.0%;">City: PATNA<br>Crop: Maize<br>Season: Rabi       <br>Production: 1169.0</div>`)[0];
+                popup_681aa1e13a9adff92ca1b60b0b8fbb90.setContent(html_0665a71b78ba3fddeabd4db6bc6d87a7);
+            
+        
+
+        marker_1f0bcd1f09bff75a71f7ecf0c95c5cc0.bindPopup(popup_681aa1e13a9adff92ca1b60b0b8fbb90)
+        ;
+
+        
+    
+    
+            var marker_c1d9ee5d76a01ed20e42934eefe56d1d = L.marker(
+                [21.8554375, 84.0061661],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_54ba83d91e6e0b0e672c7971945e8e06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec51ab0a5abaf8f5c00ee2b661323673 = $(`<div id="html_ec51ab0a5abaf8f5c00ee2b661323673" style="width: 100.0%; height: 100.0%;">City: JHARSUGUDA<br>Crop: Rice<br>Season: Autumn     <br>Production: 22000.0</div>`)[0];
+                popup_54ba83d91e6e0b0e672c7971945e8e06.setContent(html_ec51ab0a5abaf8f5c00ee2b661323673);
+            
+        
+
+        marker_c1d9ee5d76a01ed20e42934eefe56d1d.bindPopup(popup_54ba83d91e6e0b0e672c7971945e8e06)
+        ;
+
+        
+    
+    
+            var marker_3b13cd7d9b5403348cf0052c24470ac2 = L.marker(
+                [10.7904833, 78.7046725],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_ad491c5676ab75fa1024407a8f655730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0353e45eefd616f854d32a4e02197eba = $(`<div id="html_0353e45eefd616f854d32a4e02197eba" style="width: 100.0%; height: 100.0%;">City: TIRUCHIRAPPALLI<br>Crop: Castor seed<br>Season: Kharif     <br>Production: 526.0</div>`)[0];
+                popup_ad491c5676ab75fa1024407a8f655730.setContent(html_0353e45eefd616f854d32a4e02197eba);
+            
+        
+
+        marker_3b13cd7d9b5403348cf0052c24470ac2.bindPopup(popup_ad491c5676ab75fa1024407a8f655730)
+        ;
+
+        
+    
+    
+            var marker_41349f222a504111c6d1527d37ad62f6 = L.marker(
+                [12.8437814, 75.2479061],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_d93f099c402f676cd60dfd319bac5eb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57100c5a3559b87ff025083da7617c48 = $(`<div id="html_57100c5a3559b87ff025083da7617c48" style="width: 100.0%; height: 100.0%;">City: DAKSHINA KANNADA<br>Crop: Cowpea(Lobia)<br>Season: Rabi       <br>Production: 1.0</div>`)[0];
+                popup_d93f099c402f676cd60dfd319bac5eb8.setContent(html_57100c5a3559b87ff025083da7617c48);
+            
+        
+
+        marker_41349f222a504111c6d1527d37ad62f6.bindPopup(popup_d93f099c402f676cd60dfd319bac5eb8)
+        ;
+
+        
+    
+    
+            var marker_639e182cf3f710589278513b2017cc05 = L.marker(
+                [26.7509207, 94.2036696],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_b3112eef19271235243ceced8c23ff25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cafbb32536102609831cf0f771eddc5e = $(`<div id="html_cafbb32536102609831cf0f771eddc5e" style="width: 100.0%; height: 100.0%;">City: JORHAT<br>Crop: Coconut <br>Season: Whole Year <br>Production: 3089000.0</div>`)[0];
+                popup_b3112eef19271235243ceced8c23ff25.setContent(html_cafbb32536102609831cf0f771eddc5e);
+            
+        
+
+        marker_639e182cf3f710589278513b2017cc05.bindPopup(popup_b3112eef19271235243ceced8c23ff25)
+        ;
+
+        
+    
+    
+            var marker_9e27036856ca95e6de8821e1fb2519ce = L.marker(
+                [15.4589236, 75.007808],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_ed1975a6415dfad035717b8aeadc646b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9a43e0ffe44665eac49e3e7e2a9d6d2 = $(`<div id="html_a9a43e0ffe44665eac49e3e7e2a9d6d2" style="width: 100.0%; height: 100.0%;">City: DHARWAD<br>Crop: Dry chillies<br>Season: Whole Year <br>Production: 28011.0</div>`)[0];
+                popup_ed1975a6415dfad035717b8aeadc646b.setContent(html_a9a43e0ffe44665eac49e3e7e2a9d6d2);
+            
+        
+
+        marker_9e27036856ca95e6de8821e1fb2519ce.bindPopup(popup_ed1975a6415dfad035717b8aeadc646b)
+        ;
+
+        
+    
+    
+            var marker_a357908dc0571a65fce810022a43fda6 = L.marker(
+                [19.2183307, 72.9780897],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_641c859e8afc4f11460e7c188fcbf2f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0eb6a031467704069b14daae4942a05 = $(`<div id="html_d0eb6a031467704069b14daae4942a05" style="width: 100.0%; height: 100.0%;">City: THANE<br>Crop: Urad<br>Season: Kharif     <br>Production: 3800.0</div>`)[0];
+                popup_641c859e8afc4f11460e7c188fcbf2f0.setContent(html_d0eb6a031467704069b14daae4942a05);
+            
+        
+
+        marker_a357908dc0571a65fce810022a43fda6.bindPopup(popup_641c859e8afc4f11460e7c188fcbf2f0)
+        ;
+
+        
+    
+    
+            var marker_4d930c40f662325044ff0e0b7ebb09b6 = L.marker(
+                [14.4644085, 75.921758],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_3600330c217bd043862926da81fe5300 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8986a51c6d5cd29b620ae2a4452d91af = $(`<div id="html_8986a51c6d5cd29b620ae2a4452d91af" style="width: 100.0%; height: 100.0%;">City: DAVANGERE<br>Crop: Sunflower<br>Season: Kharif     <br>Production: 6226.0</div>`)[0];
+                popup_3600330c217bd043862926da81fe5300.setContent(html_8986a51c6d5cd29b620ae2a4452d91af);
+            
+        
+
+        marker_4d930c40f662325044ff0e0b7ebb09b6.bindPopup(popup_3600330c217bd043862926da81fe5300)
+        ;
+
+        
+    
+    
+            var marker_437fdd42fa43ae39711ab84afb3c0373 = L.marker(
+                [28.2734201, 76.14013489999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_54f52c2f111355993e9424dfa92574e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ef2804a874f2eee839c50106b515c54 = $(`<div id="html_2ef2804a874f2eee839c50106b515c54" style="width: 100.0%; height: 100.0%;">City: MAHENDRAGARH<br>Crop: Wheat<br>Season: Rabi       <br>Production: 199000.0</div>`)[0];
+                popup_54f52c2f111355993e9424dfa92574e4.setContent(html_2ef2804a874f2eee839c50106b515c54);
+            
+        
+
+        marker_437fdd42fa43ae39711ab84afb3c0373.bindPopup(popup_54f52c2f111355993e9424dfa92574e4)
+        ;
+
+        
+    
+    
+            var marker_5393c25ec226dbbf69cdf532af29ec89 = L.marker(
+                [27.0514156, 79.9136731],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_d72bfb22f441e48667d1526120112b58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_712b7331c90aa0f05bd98f4fe19bb37e = $(`<div id="html_712b7331c90aa0f05bd98f4fe19bb37e" style="width: 100.0%; height: 100.0%;">City: KANNAUJ<br>Crop: Moong(Green Gram)<br>Season: Summer     <br>Production: 1617.0</div>`)[0];
+                popup_d72bfb22f441e48667d1526120112b58.setContent(html_712b7331c90aa0f05bd98f4fe19bb37e);
+            
+        
+
+        marker_5393c25ec226dbbf69cdf532af29ec89.bindPopup(popup_d72bfb22f441e48667d1526120112b58)
+        ;
+
+        
+    
+    
+            var marker_eb07e5b65904cd547d18c9b20fe415e7 = L.marker(
+                [15.4315406, 75.63551489999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_12ae0ddb9c1dc2a1adc8b304bf81c85e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1962653acc23978bd883f13805655168 = $(`<div id="html_1962653acc23978bd883f13805655168" style="width: 100.0%; height: 100.0%;">City: GADAG<br>Crop: Rapeseed &Mustard<br>Season: Rabi       <br>Production: 78.0</div>`)[0];
+                popup_12ae0ddb9c1dc2a1adc8b304bf81c85e.setContent(html_1962653acc23978bd883f13805655168);
+            
+        
+
+        marker_eb07e5b65904cd547d18c9b20fe415e7.bindPopup(popup_12ae0ddb9c1dc2a1adc8b304bf81c85e)
+        ;
+
+        
+    
+    
+            var marker_5638d9938207d459cdcfda144cce1a46 = L.marker(
+                [25.5671692, 90.5257823],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_4d6657ecc019b1f6a99fe20fd744027a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8ff24bd5538aeef612755d68977d473 = $(`<div id="html_f8ff24bd5538aeef612755d68977d473" style="width: 100.0%; height: 100.0%;">City: EAST GARO HILLS<br>Crop: Sugarcane<br>Season: Whole Year <br>Production: 69.0</div>`)[0];
+                popup_4d6657ecc019b1f6a99fe20fd744027a.setContent(html_f8ff24bd5538aeef612755d68977d473);
+            
+        
+
+        marker_5638d9938207d459cdcfda144cce1a46.bindPopup(popup_4d6657ecc019b1f6a99fe20fd744027a)
+        ;
+
+        
+    
+    
+            var marker_e85c847bd1b3d82c823b95a704671604 = L.marker(
+                [21.0976046, 81.0337066],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_26bb095c4a6ca6a71b0c0fc6779d8bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed06d2c47853450a4edc53074e69df25 = $(`<div id="html_ed06d2c47853450a4edc53074e69df25" style="width: 100.0%; height: 100.0%;">City: RAJNANDGAON<br>Crop: Horse-gram<br>Season: Rabi       <br>Production: 260.0</div>`)[0];
+                popup_26bb095c4a6ca6a71b0c0fc6779d8bd0.setContent(html_ed06d2c47853450a4edc53074e69df25);
+            
+        
+
+        marker_e85c847bd1b3d82c823b95a704671604.bindPopup(popup_26bb095c4a6ca6a71b0c0fc6779d8bd0)
+        ;
+
+        
+    
+    
+            var marker_eb2cc5435ce70a925eaecc177f888de7 = L.marker(
+                [13.1230558, 79.9119526],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_f73e6da94ab305f75fffadfb923cb722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_934963cf57e387aafff73d9fa32bd805 = $(`<div id="html_934963cf57e387aafff73d9fa32bd805" style="width: 100.0%; height: 100.0%;">City: THIRUVALLUR<br>Crop: Coconut <br>Season: Whole Year <br>Production: 6400000.0</div>`)[0];
+                popup_f73e6da94ab305f75fffadfb923cb722.setContent(html_934963cf57e387aafff73d9fa32bd805);
+            
+        
+
+        marker_eb2cc5435ce70a925eaecc177f888de7.bindPopup(popup_f73e6da94ab305f75fffadfb923cb722)
+        ;
+
+        
+    
+    
+            var marker_178a2135a488d9a24143d997913f78f0 = L.marker(
+                [9.2647582, 76.78704139999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_2944bdbfb61d8ac11f9dab781ec545eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f37db9b9a5fedbf51582b75fe7cff3d5 = $(`<div id="html_f37db9b9a5fedbf51582b75fe7cff3d5" style="width: 100.0%; height: 100.0%;">City: PATHANAMTHITTA<br>Crop: Sugarcane<br>Season: Whole Year <br>Production: 1119.0</div>`)[0];
+                popup_2944bdbfb61d8ac11f9dab781ec545eb.setContent(html_f37db9b9a5fedbf51582b75fe7cff3d5);
+            
+        
+
+        marker_178a2135a488d9a24143d997913f78f0.bindPopup(popup_2944bdbfb61d8ac11f9dab781ec545eb)
+        ;
+
+        
+    
+    
+            var marker_c5a06c086721a72fdad28cc54377f57c = L.marker(
+                [25.3176452, 82.9739144],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_131ea3b1945dd21cd48329eb6dd3cb50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_024cacba539385199e060664ecf780f6 = $(`<div id="html_024cacba539385199e060664ecf780f6" style="width: 100.0%; height: 100.0%;">City: VARANASI<br>Crop: Sesamum<br>Season: Kharif     <br>Production: 16.0</div>`)[0];
+                popup_131ea3b1945dd21cd48329eb6dd3cb50.setContent(html_024cacba539385199e060664ecf780f6);
+            
+        
+
+        marker_c5a06c086721a72fdad28cc54377f57c.bindPopup(popup_131ea3b1945dd21cd48329eb6dd3cb50)
+        ;
+
+        
+    
+    
+            var marker_2e5f97ed3d29bcdc561c7fd35164d9d6 = L.marker(
+                [26.3210313, 94.5147156],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_028d8e1b55768d4ef540986f12ce6dad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6de734c299794121df2742d628c3c63c = $(`<div id="html_6de734c299794121df2742d628c3c63c" style="width: 100.0%; height: 100.0%;">City: MOKOKCHUNG<br>Crop: Jowar<br>Season: Kharif     <br>Production: 130.0</div>`)[0];
+                popup_028d8e1b55768d4ef540986f12ce6dad.setContent(html_6de734c299794121df2742d628c3c63c);
+            
+        
+
+        marker_2e5f97ed3d29bcdc561c7fd35164d9d6.bindPopup(popup_028d8e1b55768d4ef540986f12ce6dad)
+        ;
+
+        
+    
+    
+            var marker_500279296d6b493cbca477cb7e308547 = L.marker(
+                [20.9042201, 74.7748979],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_d509d8ab38542d4dccfa416431a54a3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01ee9232977c8c10d525359e25580a68 = $(`<div id="html_01ee9232977c8c10d525359e25580a68" style="width: 100.0%; height: 100.0%;">City: DHULE<br>Crop: Groundnut<br>Season: Summer     <br>Production: 16100.0</div>`)[0];
+                popup_d509d8ab38542d4dccfa416431a54a3a.setContent(html_01ee9232977c8c10d525359e25580a68);
+            
+        
+
+        marker_500279296d6b493cbca477cb7e308547.bindPopup(popup_d509d8ab38542d4dccfa416431a54a3a)
+        ;
+
+        
+    
+    
+            var marker_9bd3cb8aeddbf306781f1a8753ccbd15 = L.marker(
+                [16.7488379, 78.00351719999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_c98974ccd408d7af9b99832fab034118 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d76a2a67ffc8ea57b211dc6153c22dbd = $(`<div id="html_d76a2a67ffc8ea57b211dc6153c22dbd" style="width: 100.0%; height: 100.0%;">City: MAHBUBNAGAR<br>Crop: Sunflower<br>Season: Whole Year <br>Production: 16387.0</div>`)[0];
+                popup_c98974ccd408d7af9b99832fab034118.setContent(html_d76a2a67ffc8ea57b211dc6153c22dbd);
+            
+        
+
+        marker_9bd3cb8aeddbf306781f1a8753ccbd15.bindPopup(popup_c98974ccd408d7af9b99832fab034118)
+        ;
+
+        
+    
+    
+            var marker_c0c9b53658d41284e77494cfe8191481 = L.marker(
+                [13.9299299, 75.568101],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_de033bce28880672eab3abf8390ecaf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d30ec1357270062184b90a1d214be5d = $(`<div id="html_8d30ec1357270062184b90a1d214be5d" style="width: 100.0%; height: 100.0%;">City: SHIVAMOGGA<br>Crop: Turmeric<br>Season: Whole Year <br>Production: 5.0</div>`)[0];
+                popup_de033bce28880672eab3abf8390ecaf0.setContent(html_8d30ec1357270062184b90a1d214be5d);
+            
+        
+
+        marker_c0c9b53658d41284e77494cfe8191481.bindPopup(popup_de033bce28880672eab3abf8390ecaf0)
+        ;
+
+        
+    
+    
+            var marker_d016bbdcb0393cd32224fcbb7c3b9bdf = L.marker(
+                [21.8257464, 75.61840610000002],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_8f4e795e2f5515f703d15066ae9c5d83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ced4737acb51fe71af780ab18d45d5e = $(`<div id="html_0ced4737acb51fe71af780ab18d45d5e" style="width: 100.0%; height: 100.0%;">City: KHARGONE<br>Crop: Garlic<br>Season: Whole Year <br>Production: 84.0</div>`)[0];
+                popup_8f4e795e2f5515f703d15066ae9c5d83.setContent(html_0ced4737acb51fe71af780ab18d45d5e);
+            
+        
+
+        marker_d016bbdcb0393cd32224fcbb7c3b9bdf.bindPopup(popup_8f4e795e2f5515f703d15066ae9c5d83)
+        ;
+
+        
+    
+    
+            var marker_70f2eabb4335163378ede887381e611a = L.marker(
+                [13.3161441, 75.7720439],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_8783a5a36bac9dfd22f929f8140d965b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_460fa535ff7a5d051182d9ed94222ecd = $(`<div id="html_460fa535ff7a5d051182d9ed94222ecd" style="width: 100.0%; height: 100.0%;">City: CHIKKAMAGALURU<br>Crop: Dry chillies<br>Season: Whole Year <br>Production: 2441.0</div>`)[0];
+                popup_8783a5a36bac9dfd22f929f8140d965b.setContent(html_460fa535ff7a5d051182d9ed94222ecd);
+            
+        
+
+        marker_70f2eabb4335163378ede887381e611a.bindPopup(popup_8783a5a36bac9dfd22f929f8140d965b)
+        ;
+
+        
+    
+    
+            var marker_5db9b2e7f5710718949686a9370717fd = L.marker(
+                [23.2735522, 87.9334803],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_7b9b9659c1165f77e3a6e528683d3e33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a59766fdefa739e18cdbf13bdc45d2b = $(`<div id="html_7a59766fdefa739e18cdbf13bdc45d2b" style="width: 100.0%; height: 100.0%;">City: PURBA BARDHAMAN<br>Crop: Moong(Green Gram)<br>Season: Summer     <br>Production: 440.0</div>`)[0];
+                popup_7b9b9659c1165f77e3a6e528683d3e33.setContent(html_7a59766fdefa739e18cdbf13bdc45d2b);
+            
+        
+
+        marker_5db9b2e7f5710718949686a9370717fd.bindPopup(popup_7b9b9659c1165f77e3a6e528683d3e33)
+        ;
+
+        
+    
+    
+            var marker_33edd8e495ec98990ed264389896e366 = L.marker(
+                [29.5821848, 74.3292106],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_9b8c7bad49728349200827cfb3e5ddf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9cde5fe156b1488a3da0bf742dafbcf = $(`<div id="html_c9cde5fe156b1488a3da0bf742dafbcf" style="width: 100.0%; height: 100.0%;">City: HANUMANGARH<br>Crop: Groundnut<br>Season: Kharif     <br>Production: 355.0</div>`)[0];
+                popup_9b8c7bad49728349200827cfb3e5ddf8.setContent(html_c9cde5fe156b1488a3da0bf742dafbcf);
+            
+        
+
+        marker_33edd8e495ec98990ed264389896e366.bindPopup(popup_9b8c7bad49728349200827cfb3e5ddf8)
+        ;
+
+        
+    
+    
+            var marker_a359ff2ee6b3dfbb6b63bb12702d0330 = L.marker(
+                [11.703206, 76.0833999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_22d8892b4c9192e4aaeb96377655cbd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a96f1c6f6812974103f23582d63e9cf = $(`<div id="html_4a96f1c6f6812974103f23582d63e9cf" style="width: 100.0%; height: 100.0%;">City: WAYANAD<br>Crop: Cardamom<br>Season: Whole Year <br>Production: 201.0</div>`)[0];
+                popup_22d8892b4c9192e4aaeb96377655cbd7.setContent(html_4a96f1c6f6812974103f23582d63e9cf);
+            
+        
+
+        marker_a359ff2ee6b3dfbb6b63bb12702d0330.bindPopup(popup_22d8892b4c9192e4aaeb96377655cbd7)
+        ;
+
+        
+    
+    
+            var marker_3ed6faa171a198ba586859455434a179 = L.marker(
+                [18.2949165, 83.89380179999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_d6ddf066bec07f56fb257fcf4d5f2214 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92cc9f776661e1e71f03fba65df3f208 = $(`<div id="html_92cc9f776661e1e71f03fba65df3f208" style="width: 100.0%; height: 100.0%;">City: SRIKAKULAM<br>Crop: Urad<br>Season: Kharif     <br>Production: 223.0</div>`)[0];
+                popup_d6ddf066bec07f56fb257fcf4d5f2214.setContent(html_92cc9f776661e1e71f03fba65df3f208);
+            
+        
+
+        marker_3ed6faa171a198ba586859455434a179.bindPopup(popup_d6ddf066bec07f56fb257fcf4d5f2214)
+        ;
+
+        
+    
+    
+            var marker_a02f9c813af3cd2a8a962d0c3d2096b8 = L.marker(
+                [26.8996953, 76.332411],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_a4ec5a4fe8335d7a4724ebb7653b37e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25674c1f380f1a35a1d57a4456c6b4f6 = $(`<div id="html_25674c1f380f1a35a1d57a4456c6b4f6" style="width: 100.0%; height: 100.0%;">City: DAUSA<br>Crop: Soyabean<br>Season: Kharif     <br>Production: 1.0</div>`)[0];
+                popup_a4ec5a4fe8335d7a4724ebb7653b37e1.setContent(html_25674c1f380f1a35a1d57a4456c6b4f6);
+            
+        
+
+        marker_a02f9c813af3cd2a8a962d0c3d2096b8.bindPopup(popup_a4ec5a4fe8335d7a4724ebb7653b37e1)
+        ;
+
+        
+    
+    
+            var marker_c54879cdadbecc4c94da55752bdd3994 = L.marker(
+                [25.1012882, 76.5119321],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_c7f7e69ece7b9141b192b9d84177e480 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94c7a4ca2ed6158098538e0dcbf8d565 = $(`<div id="html_94c7a4ca2ed6158098538e0dcbf8d565" style="width: 100.0%; height: 100.0%;">City: BARAN<br>Crop: Barley<br>Season: Rabi       <br>Production: 1139.0</div>`)[0];
+                popup_c7f7e69ece7b9141b192b9d84177e480.setContent(html_94c7a4ca2ed6158098538e0dcbf8d565);
+            
+        
+
+        marker_c54879cdadbecc4c94da55752bdd3994.bindPopup(popup_c7f7e69ece7b9141b192b9d84177e480)
+        ;
+
+        
+    
+    
+            var marker_7b7f5a27e33915cf101c54fbbc11bb4d = L.marker(
+                [25.9644427, 85.2722472],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_6bf13ecb601c51db7b461ca9aa3c47e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bda812077c6da349691b06bd8ff4398c = $(`<div id="html_bda812077c6da349691b06bd8ff4398c" style="width: 100.0%; height: 100.0%;">City: SHEOHAR<br>Crop: Khesari<br>Season: Rabi       <br>Production: 29.0</div>`)[0];
+                popup_6bf13ecb601c51db7b461ca9aa3c47e4.setContent(html_bda812077c6da349691b06bd8ff4398c);
+            
+        
+
+        marker_7b7f5a27e33915cf101c54fbbc11bb4d.bindPopup(popup_6bf13ecb601c51db7b461ca9aa3c47e4)
+        ;
+
+        
+    
+    
+            var marker_9dbfb890a4d5ece07aa402392e30aa58 = L.marker(
+                [25.0583257, 73.88600339999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_90bd8b25f70542b8e452c2b325775ceb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb39cc3dc2febd1e32ecade7d384b5ac = $(`<div id="html_bb39cc3dc2febd1e32ecade7d384b5ac" style="width: 100.0%; height: 100.0%;">City: RAJSAMAND<br>Crop: Dry chillies<br>Season: Whole Year <br>Production: 600.0</div>`)[0];
+                popup_90bd8b25f70542b8e452c2b325775ceb.setContent(html_bb39cc3dc2febd1e32ecade7d384b5ac);
+            
+        
+
+        marker_9dbfb890a4d5ece07aa402392e30aa58.bindPopup(popup_90bd8b25f70542b8e452c2b325775ceb)
+        ;
+
+        
+    
+    
+            var marker_1d5b91f32b9ec588ccbc3368a8200259 = L.marker(
+                [12.5265661, 78.2149575],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_ac16c9a2f8c1b56a60e1bd6b9d72ffc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eed181e3015b87cb135ad4c3c78850d6 = $(`<div id="html_eed181e3015b87cb135ad4c3c78850d6" style="width: 100.0%; height: 100.0%;">City: KRISHNAGIRI<br>Crop: Maize<br>Season: Kharif     <br>Production: 19525.0</div>`)[0];
+                popup_ac16c9a2f8c1b56a60e1bd6b9d72ffc7.setContent(html_eed181e3015b87cb135ad4c3c78850d6);
+            
+        
+
+        marker_1d5b91f32b9ec588ccbc3368a8200259.bindPopup(popup_ac16c9a2f8c1b56a60e1bd6b9d72ffc7)
+        ;
+
+        
+    
+    
+            var marker_0e98f7cd4607434232fa49c947104067 = L.marker(
+                [20.184871, 79.9947956],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_90948eb0bcfaf56b45c2a52ccb2379ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e60c2314e21cdb495510f3e33bf09156 = $(`<div id="html_e60c2314e21cdb495510f3e33bf09156" style="width: 100.0%; height: 100.0%;">City: GADCHIROLI<br>Crop: Maize<br>Season: Rabi       <br>Production: 3824.0</div>`)[0];
+                popup_90948eb0bcfaf56b45c2a52ccb2379ce.setContent(html_e60c2314e21cdb495510f3e33bf09156);
+            
+        
+
+        marker_0e98f7cd4607434232fa49c947104067.bindPopup(popup_90948eb0bcfaf56b45c2a52ccb2379ce)
+        ;
+
+        
+    
+    
+            var marker_0db963289811a5f43d49927d5e83bb41 = L.marker(
+                [27.0185604, 95.5197394],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_abdab588d21176421f2805d71cb18555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c7db77d99f9715a635b1413609cba10 = $(`<div id="html_0c7db77d99f9715a635b1413609cba10" style="width: 100.0%; height: 100.0%;">City: TIRAP<br>Crop: Potato<br>Season: Whole Year <br>Production: 144.0</div>`)[0];
+                popup_abdab588d21176421f2805d71cb18555.setContent(html_0c7db77d99f9715a635b1413609cba10);
+            
+        
+
+        marker_0db963289811a5f43d49927d5e83bb41.bindPopup(popup_abdab588d21176421f2805d71cb18555)
+        ;
+
+        
+    
+    
+            var marker_7bb5823a7fd1ee8aef0e16d47470d473 = L.marker(
+                [22.4256613, 87.3198819],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_bf8ce6ed7b61737972f200025946f5f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc5c8ef3c40c3b95ef53eb040b648edc = $(`<div id="html_fc5c8ef3c40c3b95ef53eb040b648edc" style="width: 100.0%; height: 100.0%;">City: MEDINIPUR WEST<br>Crop: Linseed<br>Season: Rabi       <br>Production: 1.0</div>`)[0];
+                popup_bf8ce6ed7b61737972f200025946f5f6.setContent(html_fc5c8ef3c40c3b95ef53eb040b648edc);
+            
+        
+
+        marker_7bb5823a7fd1ee8aef0e16d47470d473.bindPopup(popup_bf8ce6ed7b61737972f200025946f5f6)
+        ;
+
+        
+    
+    
+            var marker_5af530b52cb75462110e4bc138dea0ba = L.marker(
+                [23.0441295, 84.53794549999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_ff8d2893c907a7eb6150256fa8aac1b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed45bb02e035efbe1ae6fdcb5b1ffa67 = $(`<div id="html_ed45bb02e035efbe1ae6fdcb5b1ffa67" style="width: 100.0%; height: 100.0%;">City: GUMLA<br>Crop: Wheat<br>Season: Rabi       <br>Production: 1717.0</div>`)[0];
+                popup_ff8d2893c907a7eb6150256fa8aac1b6.setContent(html_ed45bb02e035efbe1ae6fdcb5b1ffa67);
+            
+        
+
+        marker_5af530b52cb75462110e4bc138dea0ba.bindPopup(popup_ff8d2893c907a7eb6150256fa8aac1b6)
+        ;
+
+        
+    
+    
+            var marker_0c4005f6f72637bef25cb7f5f0e40019 = L.marker(
+                [12.4995966, 74.9869276],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_7a97de6a6efeea85ed046bc0c4de9de9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fdf414748317efd65c96f695c70a9a3 = $(`<div id="html_7fdf414748317efd65c96f695c70a9a3" style="width: 100.0%; height: 100.0%;">City: KASARAGOD<br>Crop: Black pepper<br>Season: Whole Year <br>Production: 1716.0</div>`)[0];
+                popup_7a97de6a6efeea85ed046bc0c4de9de9.setContent(html_7fdf414748317efd65c96f695c70a9a3);
+            
+        
+
+        marker_0c4005f6f72637bef25cb7f5f0e40019.bindPopup(popup_7a97de6a6efeea85ed046bc0c4de9de9)
+        ;
+
+        
+    
+    
+            var marker_3ec1fb5f88e5223d5cb23cf4455a92e0 = L.marker(
+                [27.5705152, 81.59766719999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_3559639ae458eda283eb31cef5433921 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_191c368c3802c8da1f7cc37c72ea8001 = $(`<div id="html_191c368c3802c8da1f7cc37c72ea8001" style="width: 100.0%; height: 100.0%;">City: BAHRAICH<br>Crop: Maize<br>Season: Kharif     <br>Production: 86895.0</div>`)[0];
+                popup_3559639ae458eda283eb31cef5433921.setContent(html_191c368c3802c8da1f7cc37c72ea8001);
+            
+        
+
+        marker_3ec1fb5f88e5223d5cb23cf4455a92e0.bindPopup(popup_3559639ae458eda283eb31cef5433921)
+        ;
+
+        
+    
+    
+            var marker_ded710714d228f2c147f9e0cbdd6c55a = L.marker(
+                [20.9467019, 72.95203479999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_6d439d8335a0ca19c5e2786355d737f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4281e6170e16a18701ed234a2214e756 = $(`<div id="html_4281e6170e16a18701ed234a2214e756" style="width: 100.0%; height: 100.0%;">City: NAVSARI<br>Crop: Onion<br>Season: Whole Year <br>Production: 4400.0</div>`)[0];
+                popup_6d439d8335a0ca19c5e2786355d737f9.setContent(html_4281e6170e16a18701ed234a2214e756);
+            
+        
+
+        marker_ded710714d228f2c147f9e0cbdd6c55a.bindPopup(popup_6d439d8335a0ca19c5e2786355d737f9)
+        ;
+
+        
+    
+    
+            var marker_dad76e28d3333a118b2a66ffb2017dd9 = L.marker(
+                [25.2945119, 79.8858951],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_4609bc75883c41009ee35f17930a0c53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d9b30e1a8e1043ae07bd954940926b0 = $(`<div id="html_8d9b30e1a8e1043ae07bd954940926b0" style="width: 100.0%; height: 100.0%;">City: MAHOBA<br>Crop: Small millets<br>Season: Kharif     <br>Production: 192.0</div>`)[0];
+                popup_4609bc75883c41009ee35f17930a0c53.setContent(html_8d9b30e1a8e1043ae07bd954940926b0);
+            
+        
+
+        marker_dad76e28d3333a118b2a66ffb2017dd9.bindPopup(popup_4609bc75883c41009ee35f17930a0c53)
+        ;
+
+        
+    
+    
+            var marker_a8d41753e8a36db9c7d85cad963b5cc1 = L.marker(
+                [26.4605377, 79.5112528],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_1e5afa36a93e1ad84c1f6138b3f7651f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e21dceb2b96ce359e8992da2bd0fe8 = $(`<div id="html_68e21dceb2b96ce359e8992da2bd0fe8" style="width: 100.0%; height: 100.0%;">City: AURAIYA<br>Crop: Sannhamp<br>Season: Whole Year <br>Production: 6.0</div>`)[0];
+                popup_1e5afa36a93e1ad84c1f6138b3f7651f.setContent(html_68e21dceb2b96ce359e8992da2bd0fe8);
+            
+        
+
+        marker_a8d41753e8a36db9c7d85cad963b5cc1.bindPopup(popup_1e5afa36a93e1ad84c1f6138b3f7651f)
+        ;
+
+        
+    
+    
+            var marker_3ad043c5a3fa6c484fc262aa74d1d8a0 = L.marker(
+                [25.9239677, 86.7946387],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_8ffb9bc79622ec79274b4ff30f00eaef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de6f40039dc10f12c411922f7003a3ac = $(`<div id="html_de6f40039dc10f12c411922f7003a3ac" style="width: 100.0%; height: 100.0%;">City: MADHEPURA<br>Crop: Small millets<br>Season: Kharif     <br>Production: 26.0</div>`)[0];
+                popup_8ffb9bc79622ec79274b4ff30f00eaef.setContent(html_de6f40039dc10f12c411922f7003a3ac);
+            
+        
+
+        marker_3ad043c5a3fa6c484fc262aa74d1d8a0.bindPopup(popup_8ffb9bc79622ec79274b4ff30f00eaef)
+        ;
+
+        
+    
+    
+            var marker_1f5570f9d7e1962cf81ee2d24aada371 = L.marker(
+                [13.1535064, 77.8524505],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_85dcf0fa6d0d248987eedc8676142d36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06cc13a1699b7362ce6176d34d6a7933 = $(`<div id="html_06cc13a1699b7362ce6176d34d6a7933" style="width: 100.0%; height: 100.0%;">City: BANGALORE RURAL<br>Crop: Maize<br>Season: Summer     <br>Production: 245.0</div>`)[0];
+                popup_85dcf0fa6d0d248987eedc8676142d36.setContent(html_06cc13a1699b7362ce6176d34d6a7933);
+            
+        
+
+        marker_1f5570f9d7e1962cf81ee2d24aada371.bindPopup(popup_85dcf0fa6d0d248987eedc8676142d36)
+        ;
+
+        
+    
+    
+            var marker_d76f423da52180176c686e0115439cbd = L.marker(
+                [23.5309797, 80.82947469999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_561c3ee1b3290ddbb075cc3270dc7f7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af595e4caac6e92c591df0544750c5dd = $(`<div id="html_af595e4caac6e92c591df0544750c5dd" style="width: 100.0%; height: 100.0%;">City: UMARIA<br>Crop: Sesamum<br>Season: Kharif     <br>Production: 400.0</div>`)[0];
+                popup_561c3ee1b3290ddbb075cc3270dc7f7d.setContent(html_af595e4caac6e92c591df0544750c5dd);
+            
+        
+
+        marker_d76f423da52180176c686e0115439cbd.bindPopup(popup_561c3ee1b3290ddbb075cc3270dc7f7d)
+        ;
+
+        
+    
+    
+            var marker_a6704dc3d91fdc281c156ebee062c7f4 = L.marker(
+                [27.4720412, 94.5587757],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_3d63023ce97d1a4fbbdfbee203b3fc58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58975b577782252982f6dcbb1c1a10d2 = $(`<div id="html_58975b577782252982f6dcbb1c1a10d2" style="width: 100.0%; height: 100.0%;">City: DHEMAJI<br>Crop: Small millets<br>Season: Kharif     <br>Production: 7.0</div>`)[0];
+                popup_3d63023ce97d1a4fbbdfbee203b3fc58.setContent(html_58975b577782252982f6dcbb1c1a10d2);
+            
+        
+
+        marker_a6704dc3d91fdc281c156ebee062c7f4.bindPopup(popup_3d63023ce97d1a4fbbdfbee203b3fc58)
+        ;
+
+        
+    
+    
+            var marker_3b5da3516e62487ddc92bd43b89c4d81 = L.marker(
+                [31.6861745, 76.52130919999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_0dfd56487c3ac1298ecd9dd885aa3571 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35b80de2c7cc9533a5abd6e9762c3e92 = $(`<div id="html_35b80de2c7cc9533a5abd6e9762c3e92" style="width: 100.0%; height: 100.0%;">City: HAMIRPUR<br>Crop: Sesamum<br>Season: Kharif     <br>Production: 6013.0</div>`)[0];
+                popup_0dfd56487c3ac1298ecd9dd885aa3571.setContent(html_35b80de2c7cc9533a5abd6e9762c3e92);
+            
+        
+
+        marker_3b5da3516e62487ddc92bd43b89c4d81.bindPopup(popup_0dfd56487c3ac1298ecd9dd885aa3571)
+        ;
+
+        
+    
+    
+            var marker_e9ba641efc5d3f8cd2b4a0876d966f3d = L.marker(
+                [18.1066576, 83.39555059999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_7faf34fd37e6ee3efd8853aa519491d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_485d8dcec9e6bd08c2b987db596d88dd = $(`<div id="html_485d8dcec9e6bd08c2b987db596d88dd" style="width: 100.0%; height: 100.0%;">City: VIZIANAGARAM<br>Crop: Jowar<br>Season: Kharif     <br>Production: 125.0</div>`)[0];
+                popup_7faf34fd37e6ee3efd8853aa519491d5.setContent(html_485d8dcec9e6bd08c2b987db596d88dd);
+            
+        
+
+        marker_e9ba641efc5d3f8cd2b4a0876d966f3d.bindPopup(popup_7faf34fd37e6ee3efd8853aa519491d5)
+        ;
+
+        
+    
+    
+            var marker_8de1af03c664793345f2debdf44faa93 = L.marker(
+                [27.1983368, 73.7493272],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_e9e58b8f11b4d6ac7223286c416fb314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad82f1293529356e4d7a104ad781b9c1 = $(`<div id="html_ad82f1293529356e4d7a104ad781b9c1" style="width: 100.0%; height: 100.0%;">City: NAGAUR<br>Crop: Barley<br>Season: Rabi       <br>Production: 22442.0</div>`)[0];
+                popup_e9e58b8f11b4d6ac7223286c416fb314.setContent(html_ad82f1293529356e4d7a104ad781b9c1);
+            
+        
+
+        marker_8de1af03c664793345f2debdf44faa93.bindPopup(popup_e9e58b8f11b4d6ac7223286c416fb314)
+        ;
+
+        
+    
+    
+            var marker_6d59b743d12f1f7e43086c04b23e6b85 = L.marker(
+                [15.3504652, 76.1567298],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_9a4f16b8cd5e946aa6f74235bb09dc55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24bb92a248cc242ac15b5a7021caac79 = $(`<div id="html_24bb92a248cc242ac15b5a7021caac79" style="width: 100.0%; height: 100.0%;">City: KOPPAL<br>Crop: Jowar<br>Season: Summer     <br>Production: 858.0</div>`)[0];
+                popup_9a4f16b8cd5e946aa6f74235bb09dc55.setContent(html_24bb92a248cc242ac15b5a7021caac79);
+            
+        
+
+        marker_6d59b743d12f1f7e43086c04b23e6b85.bindPopup(popup_9a4f16b8cd5e946aa6f74235bb09dc55)
+        ;
+
+        
+    
+    
+            var marker_63c731a7ab70dde22b2e082f6bb42787 = L.marker(
+                [21.0976046, 81.0337066],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_2a324ddee930e45cacbb8c7eea776be0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea2a9be1bff41919283f1d9540e43948 = $(`<div id="html_ea2a9be1bff41919283f1d9540e43948" style="width: 100.0%; height: 100.0%;">City: RAJNANDGAON<br>Crop: Gram<br>Season: Rabi       <br>Production: 38215.0</div>`)[0];
+                popup_2a324ddee930e45cacbb8c7eea776be0.setContent(html_ea2a9be1bff41919283f1d9540e43948);
+            
+        
+
+        marker_63c731a7ab70dde22b2e082f6bb42787.bindPopup(popup_2a324ddee930e45cacbb8c7eea776be0)
+        ;
+
+        
+    
+    
+            var marker_ad272cea05f6d78536b0a1b41004e3c8 = L.marker(
+                [26.1324689, 87.4528067],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_55d5dda0c2573d3a88e2207a6257712b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_778684d2243f2c89209f5d304562a0c8 = $(`<div id="html_778684d2243f2c89209f5d304562a0c8" style="width: 100.0%; height: 100.0%;">City: ARARIA<br>Crop: Horse-gram<br>Season: Kharif     <br>Production: 1792.0</div>`)[0];
+                popup_55d5dda0c2573d3a88e2207a6257712b.setContent(html_778684d2243f2c89209f5d304562a0c8);
+            
+        
+
+        marker_ad272cea05f6d78536b0a1b41004e3c8.bindPopup(popup_55d5dda0c2573d3a88e2207a6257712b)
+        ;
+
+        
+    
+    
+            var marker_cacc84df1b80bb5dea3d006407d3cdd9 = L.marker(
+                [28.1782689, 94.5211935],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_4d3ad85933f81f53420119b9b0cf0a66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80c2e92677fbb5e53d741808d95422a2 = $(`<div id="html_80c2e92677fbb5e53d741808d95422a2" style="width: 100.0%; height: 100.0%;">City: WEST SIANG<br>Crop: Sugarcane<br>Season: Whole Year <br>Production: 1520.0</div>`)[0];
+                popup_4d3ad85933f81f53420119b9b0cf0a66.setContent(html_80c2e92677fbb5e53d741808d95422a2);
+            
+        
+
+        marker_cacc84df1b80bb5dea3d006407d3cdd9.bindPopup(popup_4d3ad85933f81f53420119b9b0cf0a66)
+        ;
+
+        
+    
+    
+            var marker_90b775e5d056f952d61e1e112d14d12a = L.marker(
+                [21.812876, 80.18382930000001],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_5f08b121fffaa2268e400a333ff0f365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9af8c57a91ab57c82d20179803b6f391 = $(`<div id="html_9af8c57a91ab57c82d20179803b6f391" style="width: 100.0%; height: 100.0%;">City: BALAGHAT<br>Crop: Moong(Green Gram)<br>Season: Kharif     <br>Production: nan</div>`)[0];
+                popup_5f08b121fffaa2268e400a333ff0f365.setContent(html_9af8c57a91ab57c82d20179803b6f391);
+            
+        
+
+        marker_90b775e5d056f952d61e1e112d14d12a.bindPopup(popup_5f08b121fffaa2268e400a333ff0f365)
+        ;
+
+        
+    
+    
+            var marker_befe422a25460bf5f3402f726dc7162c = L.marker(
+                [10.0079322, 77.4735441],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_3788b76206e41c7b12f65cf1e260888e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f9632842e2972941362e7bf7b35a9e8 = $(`<div id="html_5f9632842e2972941362e7bf7b35a9e8" style="width: 100.0%; height: 100.0%;">City: THENI<br>Crop: Bajra<br>Season: Rabi       <br>Production: 1676.0</div>`)[0];
+                popup_3788b76206e41c7b12f65cf1e260888e.setContent(html_5f9632842e2972941362e7bf7b35a9e8);
+            
+        
+
+        marker_befe422a25460bf5f3402f726dc7162c.bindPopup(popup_3788b76206e41c7b12f65cf1e260888e)
+        ;
+
+        
+    
+    
+            var marker_dc2ea2eeec96e8903a79dbd50b85981e = L.marker(
+                [19.8761653, 75.3433139],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_3daafa846e7ec9d26a3cdab3fc5a2172 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c4a5f23f7daa60d3111f2807ecd5af7 = $(`<div id="html_2c4a5f23f7daa60d3111f2807ecd5af7" style="width: 100.0%; height: 100.0%;">City: AURANGABAD<br>Crop: Urad<br>Season: Kharif     <br>Production: 2900.0</div>`)[0];
+                popup_3daafa846e7ec9d26a3cdab3fc5a2172.setContent(html_2c4a5f23f7daa60d3111f2807ecd5af7);
+            
+        
+
+        marker_dc2ea2eeec96e8903a79dbd50b85981e.bindPopup(popup_3daafa846e7ec9d26a3cdab3fc5a2172)
+        ;
+
+        
+    
+    
+            var marker_e1e78e5d108c3f44e52470acccb38fa1 = L.marker(
+                [27.6093912, 75.1397935],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_248c0a01308a6012cefef0228c940690 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65ca18bd3a1856aae7a07e33e0a5b369 = $(`<div id="html_65ca18bd3a1856aae7a07e33e0a5b369" style="width: 100.0%; height: 100.0%;">City: SIKAR<br>Crop: Cotton(lint)<br>Season: Kharif     <br>Production: 282.0</div>`)[0];
+                popup_248c0a01308a6012cefef0228c940690.setContent(html_65ca18bd3a1856aae7a07e33e0a5b369);
+            
+        
+
+        marker_e1e78e5d108c3f44e52470acccb38fa1.bindPopup(popup_248c0a01308a6012cefef0228c940690)
+        ;
+
+        
+    
+    
+            var marker_c99308d2dd4f010ad50c7ff4e3af3b47 = L.marker(
+                [32.3863082, 75.5173465],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_ac3983d4365e67587c0d2ceeb14c9e56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_829817a785d57168d17a55568438bd23 = $(`<div id="html_829817a785d57168d17a55568438bd23" style="width: 100.0%; height: 100.0%;">City: KATHUA<br>Crop: Onion<br>Season: Kharif     <br>Production: 4.0</div>`)[0];
+                popup_ac3983d4365e67587c0d2ceeb14c9e56.setContent(html_829817a785d57168d17a55568438bd23);
+            
+        
+
+        marker_c99308d2dd4f010ad50c7ff4e3af3b47.bindPopup(popup_ac3983d4365e67587c0d2ceeb14c9e56)
+        ;
+
+        
+    
+    
+            var marker_748bf72ff7ab5ab5bac35c016d36bc02 = L.marker(
+                [28.0106916, 77.0564464],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_b7be05f24756b3dcbbabded910895891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e9b871533cd2d4061321d9bfa35e765 = $(`<div id="html_7e9b871533cd2d4061321d9bfa35e765" style="width: 100.0%; height: 100.0%;">City: MEWAT<br>Crop: Rapeseed &Mustard<br>Season: Rabi       <br>Production: 44000.0</div>`)[0];
+                popup_b7be05f24756b3dcbbabded910895891.setContent(html_7e9b871533cd2d4061321d9bfa35e765);
+            
+        
+
+        marker_748bf72ff7ab5ab5bac35c016d36bc02.bindPopup(popup_b7be05f24756b3dcbbabded910895891)
+        ;
+
+        
+    
+    
+            var marker_f4c58a941c392281abf70fe68630dc4a = L.marker(
+                [25.5940947, 85.1375645],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_45a6c4de35906de07265db5c3c324e73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1c9a10effa79b55d0edba61a027f4c4 = $(`<div id="html_c1c9a10effa79b55d0edba61a027f4c4" style="width: 100.0%; height: 100.0%;">City: PATNA<br>Crop: Maize<br>Season: Rabi       <br>Production: 1193.0</div>`)[0];
+                popup_45a6c4de35906de07265db5c3c324e73.setContent(html_c1c9a10effa79b55d0edba61a027f4c4);
+            
+        
+
+        marker_f4c58a941c392281abf70fe68630dc4a.bindPopup(popup_45a6c4de35906de07265db5c3c324e73)
+        ;
+
+        
+    
+    
+            var marker_ed4b1e3fc7e912f185c26f9be6c5f28d = L.marker(
+                [30.6942091, 76.860565],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_6386558db518b7a17a09df806d603353 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bccbdde148b7ffbb4ee1e143e4e07fa = $(`<div id="html_8bccbdde148b7ffbb4ee1e143e4e07fa" style="width: 100.0%; height: 100.0%;">City: PANCHKULA<br>Crop: Rice<br>Season: Kharif     <br>Production: 18000.0</div>`)[0];
+                popup_6386558db518b7a17a09df806d603353.setContent(html_8bccbdde148b7ffbb4ee1e143e4e07fa);
+            
+        
+
+        marker_ed4b1e3fc7e912f185c26f9be6c5f28d.bindPopup(popup_6386558db518b7a17a09df806d603353)
+        ;
+
+        
+    
+    
+            var marker_c60e8b89aebd7e606109089f3a34bdcf = L.marker(
+                [24.6287405, 83.92016559999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_4a0321ae57680777d58cf92d0ab62cc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_337d021c55a3536e633438a558ebe23f = $(`<div id="html_337d021c55a3536e633438a558ebe23f" style="width: 100.0%; height: 100.0%;">City: ROHTAS<br>Crop: Arhar/Tur<br>Season: Kharif     <br>Production: 1710.0</div>`)[0];
+                popup_4a0321ae57680777d58cf92d0ab62cc6.setContent(html_337d021c55a3536e633438a558ebe23f);
+            
+        
+
+        marker_c60e8b89aebd7e606109089f3a34bdcf.bindPopup(popup_4a0321ae57680777d58cf92d0ab62cc6)
+        ;
+
+        
+    
+    
+            var marker_68f41973cdcb1b4c847a8ec8c48fa0b0 = L.marker(
+                [21.628933, 85.5816847],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_40f511bf1e3fd201b0db7a9fc7c3e2d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_481e0215d4a7d1bc3b8e98def0dfd94a = $(`<div id="html_481e0215d4a7d1bc3b8e98def0dfd94a" style="width: 100.0%; height: 100.0%;">City: KENDUJHAR<br>Crop: Coriander<br>Season: Whole Year <br>Production: 600.0</div>`)[0];
+                popup_40f511bf1e3fd201b0db7a9fc7c3e2d6.setContent(html_481e0215d4a7d1bc3b8e98def0dfd94a);
+            
+        
+
+        marker_68f41973cdcb1b4c847a8ec8c48fa0b0.bindPopup(popup_40f511bf1e3fd201b0db7a9fc7c3e2d6)
+        ;
+
+        
+    
+    
+            var marker_e6d838ca78dd293320e2dc80eeae2856 = L.marker(
+                [13.3378762, 77.117325],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_9a95ed353a17433269b826015ecb0916 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c471ab4de9f96e52ee3c10ad7747f5 = $(`<div id="html_d8c471ab4de9f96e52ee3c10ad7747f5" style="width: 100.0%; height: 100.0%;">City: TUMAKURU<br>Crop: Rice<br>Season: Rabi       <br>Production: 5356.0</div>`)[0];
+                popup_9a95ed353a17433269b826015ecb0916.setContent(html_d8c471ab4de9f96e52ee3c10ad7747f5);
+            
+        
+
+        marker_e6d838ca78dd293320e2dc80eeae2856.bindPopup(popup_9a95ed353a17433269b826015ecb0916)
+        ;
+
+        
+    
+    
+            var marker_128fcb02958620faf864c905e08309ae = L.marker(
+                [17.0577054, 79.26836229999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_b087596936c7551469d1a2f0f5d2926a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2967351a0072b007c873f83cba8cd626 = $(`<div id="html_2967351a0072b007c873f83cba8cd626" style="width: 100.0%; height: 100.0%;">City: NALGONDA<br>Crop: Groundnut<br>Season: Kharif     <br>Production: 16263.0</div>`)[0];
+                popup_b087596936c7551469d1a2f0f5d2926a.setContent(html_2967351a0072b007c873f83cba8cd626);
+            
+        
+
+        marker_128fcb02958620faf864c905e08309ae.bindPopup(popup_b087596936c7551469d1a2f0f5d2926a)
+        ;
+
+        
+    
+    
+            var marker_a5a2cc6b5b4fbdb52dc2929047229c72 = L.marker(
+                [17.329731, 76.8342957],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_3ce2b35046f1ecbc125d7b941331d20d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43fe5b93a5818683a1d740d609372287 = $(`<div id="html_43fe5b93a5818683a1d740d609372287" style="width: 100.0%; height: 100.0%;">City: KALABURAGI<br>Crop: Cotton(lint)<br>Season: Kharif     <br>Production: 38605.0</div>`)[0];
+                popup_3ce2b35046f1ecbc125d7b941331d20d.setContent(html_43fe5b93a5818683a1d740d609372287);
+            
+        
+
+        marker_a5a2cc6b5b4fbdb52dc2929047229c72.bindPopup(popup_3ce2b35046f1ecbc125d7b941331d20d)
+        ;
+
+        
+    
+    
+            var marker_8a94899404f7304ddeee61c8e37c2232 = L.marker(
+                [27.4885539, 95.355758],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_d91021145ce30d2ef0efe231740c5737 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc5e59df5e1884030c44ca7435e06738 = $(`<div id="html_bc5e59df5e1884030c44ca7435e06738" style="width: 100.0%; height: 100.0%;">City: TINSUKIA<br>Crop: Masoor<br>Season: Rabi       <br>Production: 40.0</div>`)[0];
+                popup_d91021145ce30d2ef0efe231740c5737.setContent(html_bc5e59df5e1884030c44ca7435e06738);
+            
+        
+
+        marker_8a94899404f7304ddeee61c8e37c2232.bindPopup(popup_d91021145ce30d2ef0efe231740c5737)
+        ;
+
+        
+    
+    
+            var marker_33f73e8eb96b7deefdda6d311234440c = L.marker(
+                [8.8932118, 76.6141396],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_abf842b03b7572f287eaa42c23a11071 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cfaefa28a58cd6600c94208c9cdc5dd = $(`<div id="html_2cfaefa28a58cd6600c94208c9cdc5dd" style="width: 100.0%; height: 100.0%;">City: KOLLAM<br>Crop: Banana<br>Season: Whole Year <br>Production: 12846.0</div>`)[0];
+                popup_abf842b03b7572f287eaa42c23a11071.setContent(html_2cfaefa28a58cd6600c94208c9cdc5dd);
+            
+        
+
+        marker_33f73e8eb96b7deefdda6d311234440c.bindPopup(popup_abf842b03b7572f287eaa42c23a11071)
+        ;
+
+        
+    
+    
+            var marker_836727a6eb10c311c202e79de7496824 = L.marker(
+                [25.9239677, 86.7946387],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_6a4c8a5b6e240eb2edd28c0b82b3518d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2667cd39a2f898a3483e838c8b176444 = $(`<div id="html_2667cd39a2f898a3483e838c8b176444" style="width: 100.0%; height: 100.0%;">City: MADHEPURA<br>Crop: Mesta<br>Season: Kharif     <br>Production: 23577.0</div>`)[0];
+                popup_6a4c8a5b6e240eb2edd28c0b82b3518d.setContent(html_2667cd39a2f898a3483e838c8b176444);
+            
+        
+
+        marker_836727a6eb10c311c202e79de7496824.bindPopup(popup_6a4c8a5b6e240eb2edd28c0b82b3518d)
+        ;
+
+        
+    
+    
+            var marker_6eb6492cce1c220033bd68265a2b2bbb = L.marker(
+                [12.9165167, 79.13249859999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_01f7a78247922d09b1feca7aee7e6739 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37db8587fe0fc0bb2077af68039f5c6d = $(`<div id="html_37db8587fe0fc0bb2077af68039f5c6d" style="width: 100.0%; height: 100.0%;">City: VELLORE<br>Crop: Moong(Green Gram)<br>Season: Rabi       <br>Production: 369.0</div>`)[0];
+                popup_01f7a78247922d09b1feca7aee7e6739.setContent(html_37db8587fe0fc0bb2077af68039f5c6d);
+            
+        
+
+        marker_6eb6492cce1c220033bd68265a2b2bbb.bindPopup(popup_01f7a78247922d09b1feca7aee7e6739)
+        ;
+
+        
+    
+    
+            var marker_29c42c339832a0f41ce7fa82f12b927d = L.marker(
+                [12.5265661, 78.2149575],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_c89adf911d5649c6837e389c635e5c5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a955802ae7554b8d25f8c2b63a21b2a = $(`<div id="html_0a955802ae7554b8d25f8c2b63a21b2a" style="width: 100.0%; height: 100.0%;">City: KRISHNAGIRI<br>Crop: Rapeseed &Mustard<br>Season: Rabi       <br>Production: 66.0</div>`)[0];
+                popup_c89adf911d5649c6837e389c635e5c5a.setContent(html_0a955802ae7554b8d25f8c2b63a21b2a);
+            
+        
+
+        marker_29c42c339832a0f41ce7fa82f12b927d.bindPopup(popup_c89adf911d5649c6837e389c635e5c5a)
+        ;
+
+        
+    
+    
+            var marker_e8f13c5e465281c650702f10e3b57fd8 = L.marker(
+                [20.5035436, 86.4199321],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_2da200d8224d7955007845432c848914 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99e642da55581932d12a276fff584654 = $(`<div id="html_99e642da55581932d12a276fff584654" style="width: 100.0%; height: 100.0%;">City: KENDRAPARA<br>Crop: Coriander<br>Season: Whole Year <br>Production: 987.0</div>`)[0];
+                popup_2da200d8224d7955007845432c848914.setContent(html_99e642da55581932d12a276fff584654);
+            
+        
+
+        marker_e8f13c5e465281c650702f10e3b57fd8.bindPopup(popup_2da200d8224d7955007845432c848914)
+        ;
+
+        
+    
+    
+            var marker_c7da679d5da2a7f3f9c2b0a4c6ddad35 = L.marker(
+                [29.8403606, 79.769426],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_fa11bfb5cc3d7c1075103fbea7d18334 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bcf692f7ea275f8f235974b5ccb75b5 = $(`<div id="html_0bcf692f7ea275f8f235974b5ccb75b5" style="width: 100.0%; height: 100.0%;">City: BAGESHWAR<br>Crop: Other Cereals<br>Season: Kharif     <br>Production: 312.0</div>`)[0];
+                popup_fa11bfb5cc3d7c1075103fbea7d18334.setContent(html_0bcf692f7ea275f8f235974b5ccb75b5);
+            
+        
+
+        marker_c7da679d5da2a7f3f9c2b0a4c6ddad35.bindPopup(popup_fa11bfb5cc3d7c1075103fbea7d18334)
+        ;
+
+        
+    
+    
+            var marker_c6ed301c7ee3a898c01ed76952e550e2 = L.marker(
+                [21.3145021, 76.2180095],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_bc6e57a2dafbe75c714542f32558f577 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbace0b8ff76ecb84ad6358352223f59 = $(`<div id="html_cbace0b8ff76ecb84ad6358352223f59" style="width: 100.0%; height: 100.0%;">City: BURHANPUR<br>Crop: Arhar/Tur<br>Season: Kharif     <br>Production: 17000.0</div>`)[0];
+                popup_bc6e57a2dafbe75c714542f32558f577.setContent(html_cbace0b8ff76ecb84ad6358352223f59);
+            
+        
+
+        marker_c6ed301c7ee3a898c01ed76952e550e2.bindPopup(popup_bc6e57a2dafbe75c714542f32558f577)
+        ;
+
+        
+    
+    
+            var marker_216c4dd3771bfaff5802a907948cad2a = L.marker(
+                [10.7904833, 78.7046725],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_1aa55158f018915c8cf031751f96d940 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb3ac6b78e9237b3c1e40179e37bf8bd = $(`<div id="html_eb3ac6b78e9237b3c1e40179e37bf8bd" style="width: 100.0%; height: 100.0%;">City: TIRUCHIRAPPALLI<br>Crop: Arecanut<br>Season: Whole Year <br>Production: 266.0</div>`)[0];
+                popup_1aa55158f018915c8cf031751f96d940.setContent(html_eb3ac6b78e9237b3c1e40179e37bf8bd);
+            
+        
+
+        marker_216c4dd3771bfaff5802a907948cad2a.bindPopup(popup_1aa55158f018915c8cf031751f96d940)
+        ;
+
+        
+    
+    
+            var marker_9b29a917a9564cd2863be96b85d3b39e = L.marker(
+                [24.7913957, 85.0002336],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_d28d29f6534ddf06c29b5a75240b67d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb9fd30dad02f43b0ac1f106762b3002 = $(`<div id="html_cb9fd30dad02f43b0ac1f106762b3002" style="width: 100.0%; height: 100.0%;">City: GAYA<br>Crop: Barley<br>Season: Rabi       <br>Production: 1808.0</div>`)[0];
+                popup_d28d29f6534ddf06c29b5a75240b67d9.setContent(html_cb9fd30dad02f43b0ac1f106762b3002);
+            
+        
+
+        marker_9b29a917a9564cd2863be96b85d3b39e.bindPopup(popup_d28d29f6534ddf06c29b5a75240b67d9)
+        ;
+
+        
+    
+    
+            var marker_a5569f84d84794baa928cdbe031da79a = L.marker(
+                [26.2144806, 81.25281389999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_55ab5327f009dc07a114052e98877de8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35abb77c2d9579999be1ec724e215202 = $(`<div id="html_35abb77c2d9579999be1ec724e215202" style="width: 100.0%; height: 100.0%;">City: RAE BARELI<br>Crop: Masoor<br>Season: Rabi       <br>Production: 39.0</div>`)[0];
+                popup_55ab5327f009dc07a114052e98877de8.setContent(html_35abb77c2d9579999be1ec724e215202);
+            
+        
+
+        marker_a5569f84d84794baa928cdbe031da79a.bindPopup(popup_55ab5327f009dc07a114052e98877de8)
+        ;
+
+        
+    
+    
+            var marker_118b7ffef498ea5257417e8ba7bffb73 = L.marker(
+                [22.9011588, 88.3898552],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_6407db55b6b417bdf28ecb5c6ea3351c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec0494ec420407f892bb15d53670c434 = $(`<div id="html_ec0494ec420407f892bb15d53670c434" style="width: 100.0%; height: 100.0%;">City: HOOGHLY<br>Crop: Potato<br>Season: Whole Year <br>Production: 2410963.0</div>`)[0];
+                popup_6407db55b6b417bdf28ecb5c6ea3351c.setContent(html_ec0494ec420407f892bb15d53670c434);
+            
+        
+
+        marker_118b7ffef498ea5257417e8ba7bffb73.bindPopup(popup_6407db55b6b417bdf28ecb5c6ea3351c)
+        ;
+
+        
+    
+    
+            var marker_561b6ee0a8f3a1ee7f408dc360197642 = L.marker(
+                [11.9401378, 79.4861449],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_95bfbd87653cbf5271d55b6d12391399 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eddb861e50ff2c99f4d6a300009e0ec = $(`<div id="html_3eddb861e50ff2c99f4d6a300009e0ec" style="width: 100.0%; height: 100.0%;">City: VILLUPURAM<br>Crop: Moong(Green Gram)<br>Season: Kharif     <br>Production: 75.0</div>`)[0];
+                popup_95bfbd87653cbf5271d55b6d12391399.setContent(html_3eddb861e50ff2c99f4d6a300009e0ec);
+            
+        
+
+        marker_561b6ee0a8f3a1ee7f408dc360197642.bindPopup(popup_95bfbd87653cbf5271d55b6d12391399)
+        ;
+
+        
+    
+    
+            var marker_58c4f31a096afccd01b1b2f0c6143307 = L.marker(
+                [30.9084245, 77.09990309999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_124571ee86ced9841d537bfc1d2a3f13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57a05ec8107f2f3070fb7c7e6cda80f7 = $(`<div id="html_57a05ec8107f2f3070fb7c7e6cda80f7" style="width: 100.0%; height: 100.0%;">City: SOLAN<br>Crop: Rapeseed &Mustard<br>Season: Rabi       <br>Production: 34.0</div>`)[0];
+                popup_124571ee86ced9841d537bfc1d2a3f13.setContent(html_57a05ec8107f2f3070fb7c7e6cda80f7);
+            
+        
+
+        marker_58c4f31a096afccd01b1b2f0c6143307.bindPopup(popup_124571ee86ced9841d537bfc1d2a3f13)
+        ;
+
+        
+    
+    
+            var marker_ef0b016e603608cb633324a3aec3d093 = L.marker(
+                [26.5214579, 88.7195567],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_263aa5d0e425c216ddf1a00702f68c4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4a9a1c3435454af27bc97a3cb6a5f05 = $(`<div id="html_e4a9a1c3435454af27bc97a3cb6a5f05" style="width: 100.0%; height: 100.0%;">City: JALPAIGURI<br>Crop: Rice<br>Season: Autumn     <br>Production: 68414.0</div>`)[0];
+                popup_263aa5d0e425c216ddf1a00702f68c4a.setContent(html_e4a9a1c3435454af27bc97a3cb6a5f05);
+            
+        
+
+        marker_ef0b016e603608cb633324a3aec3d093.bindPopup(popup_263aa5d0e425c216ddf1a00702f68c4a)
+        ;
+
+        
+    
+    
+            var marker_f683ce3d4f9808c5ab210aea510a38c5 = L.marker(
+                [26.6965521, 77.8907576],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_3eaadb830fcffcd4af247bbe70b3bf48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_304a37c1c0be5de54be4eac93c1d9003 = $(`<div id="html_304a37c1c0be5de54be4eac93c1d9003" style="width: 100.0%; height: 100.0%;">City: DHOLPUR<br>Crop: Barley<br>Season: Rabi       <br>Production: 1823.0</div>`)[0];
+                popup_3eaadb830fcffcd4af247bbe70b3bf48.setContent(html_304a37c1c0be5de54be4eac93c1d9003);
+            
+        
+
+        marker_f683ce3d4f9808c5ab210aea510a38c5.bindPopup(popup_3eaadb830fcffcd4af247bbe70b3bf48)
+        ;
+
+        
+    
+    
+            var marker_2ea189aaab712de41125e457e48e7a3b = L.marker(
+                [22.7195687, 75.8577258],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_6a42ed5566a569dceae7d229c8d6226c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_158a4327ee2d850c0b811f1eb0a508ed = $(`<div id="html_158a4327ee2d850c0b811f1eb0a508ed" style="width: 100.0%; height: 100.0%;">City: INDORE<br>Crop: Arhar/Tur<br>Season: Kharif     <br>Production: 419.0</div>`)[0];
+                popup_6a42ed5566a569dceae7d229c8d6226c.setContent(html_158a4327ee2d850c0b811f1eb0a508ed);
+            
+        
+
+        marker_2ea189aaab712de41125e457e48e7a3b.bindPopup(popup_6a42ed5566a569dceae7d229c8d6226c)
+        ;
+
+        
+    
+    
+            var marker_78dc7aeb3bd086984f086a3b34f0ed7b = L.marker(
+                [20.5035436, 86.4199321],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_c049535224c0973ca5ed10ecd3711e97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95d26e586ae3e2324a1dc995ab64e619 = $(`<div id="html_95d26e586ae3e2324a1dc995ab64e619" style="width: 100.0%; height: 100.0%;">City: KENDRAPARA<br>Crop: Dry chillies<br>Season: Whole Year <br>Production: 3600.0</div>`)[0];
+                popup_c049535224c0973ca5ed10ecd3711e97.setContent(html_95d26e586ae3e2324a1dc995ab64e619);
+            
+        
+
+        marker_78dc7aeb3bd086984f086a3b34f0ed7b.bindPopup(popup_c049535224c0973ca5ed10ecd3711e97)
+        ;
+
+        
+    
+    
+            var marker_f72087335529ee5194d0bc4191db85ca = L.marker(
+                [17.2472528, 80.1514447],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_4e5a0e5b4d78fb47121dbb520db5e42a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f48948d524b8963de5f8625f868c3ea = $(`<div id="html_7f48948d524b8963de5f8625f868c3ea" style="width: 100.0%; height: 100.0%;">City: KHAMMAM<br>Crop: Jowar<br>Season: Kharif     <br>Production: 1.0</div>`)[0];
+                popup_4e5a0e5b4d78fb47121dbb520db5e42a.setContent(html_7f48948d524b8963de5f8625f868c3ea);
+            
+        
+
+        marker_f72087335529ee5194d0bc4191db85ca.bindPopup(popup_4e5a0e5b4d78fb47121dbb520db5e42a)
+        ;
+
+        
+    
+    
+            var marker_7cafcaf80b58260de0b4c60a1ca8e402 = L.marker(
+                [25.2945119, 79.8858951],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_af3320263ac71ca7cb6403a8344a6c24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c929047bfddb3f11f96c4aa4efe6b80 = $(`<div id="html_5c929047bfddb3f11f96c4aa4efe6b80" style="width: 100.0%; height: 100.0%;">City: MAHOBA<br>Crop: Bajra<br>Season: Kharif     <br>Production: 60.0</div>`)[0];
+                popup_af3320263ac71ca7cb6403a8344a6c24.setContent(html_5c929047bfddb3f11f96c4aa4efe6b80);
+            
+        
+
+        marker_7cafcaf80b58260de0b4c60a1ca8e402.bindPopup(popup_af3320263ac71ca7cb6403a8344a6c24)
+        ;
+
+        
+    
+    
+            var marker_09f0dfe9ed81a48127ddae68dc38356a = L.marker(
+                [17.0577054, 79.26836229999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_3f48263bd3516de2b7146a49bc96146b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85a75db27dec34697e4ea1e7aadf4b23 = $(`<div id="html_85a75db27dec34697e4ea1e7aadf4b23" style="width: 100.0%; height: 100.0%;">City: NALGONDA<br>Crop: Maize<br>Season: Kharif     <br>Production: 228.0</div>`)[0];
+                popup_3f48263bd3516de2b7146a49bc96146b.setContent(html_85a75db27dec34697e4ea1e7aadf4b23);
+            
+        
+
+        marker_09f0dfe9ed81a48127ddae68dc38356a.bindPopup(popup_3f48263bd3516de2b7146a49bc96146b)
+        ;
+
+        
+    
+    
+            var marker_6902fc74b86dafa772a9ff67750f7f9e = L.marker(
+                [26.1233718, 86.6045134],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_4f63819bf8bef1d0b1c43b4deda304ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70c45d1b09435599ee573bd4c76e7f84 = $(`<div id="html_70c45d1b09435599ee573bd4c76e7f84" style="width: 100.0%; height: 100.0%;">City: SUPAUL<br>Crop: Khesari<br>Season: Rabi       <br>Production: 1982.0</div>`)[0];
+                popup_4f63819bf8bef1d0b1c43b4deda304ff.setContent(html_70c45d1b09435599ee573bd4c76e7f84);
+            
+        
+
+        marker_6902fc74b86dafa772a9ff67750f7f9e.bindPopup(popup_4f63819bf8bef1d0b1c43b4deda304ff)
+        ;
+
+        
+    
+    
+            var marker_94f9c3eed1488faffa9f8ed8af18290d = L.marker(
+                [19.6765668, 78.53208409999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_b2ad3a7ae95e7b8298a0395b4280ce21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1067d77c0ced1f6e10a02a364eb3547c = $(`<div id="html_1067d77c0ced1f6e10a02a364eb3547c" style="width: 100.0%; height: 100.0%;">City: ADILABAD<br>Crop: Coriander<br>Season: Rabi       <br>Production: 192.0</div>`)[0];
+                popup_b2ad3a7ae95e7b8298a0395b4280ce21.setContent(html_1067d77c0ced1f6e10a02a364eb3547c);
+            
+        
+
+        marker_94f9c3eed1488faffa9f8ed8af18290d.bindPopup(popup_b2ad3a7ae95e7b8298a0395b4280ce21)
+        ;
+
+        
+    
+    
+            var marker_2e4838b255e1c71758ec8fb3696f32b4 = L.marker(
+                [23.4709656, 88.55653099999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_25b497697732cc3578c136a3d6c5c564 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9995a6211508ce3b200a6acb6cc3ff6d = $(`<div id="html_9995a6211508ce3b200a6acb6cc3ff6d" style="width: 100.0%; height: 100.0%;">City: NADIA<br>Crop: Potato<br>Season: Rabi       <br>Production: 177584.0</div>`)[0];
+                popup_25b497697732cc3578c136a3d6c5c564.setContent(html_9995a6211508ce3b200a6acb6cc3ff6d);
+            
+        
+
+        marker_2e4838b255e1c71758ec8fb3696f32b4.bindPopup(popup_25b497697732cc3578c136a3d6c5c564)
+        ;
+
+        
+    
+    
+            var marker_59f9437ebb3ec3012d842d5e02587f54 = L.marker(
+                [18.2949165, 83.89380179999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_d5bbf2a86a9a40f6aa484fef4a6cbb12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01d4e8e5e4594b9f67cbc38d744af8b4 = $(`<div id="html_01d4e8e5e4594b9f67cbc38d744af8b4" style="width: 100.0%; height: 100.0%;">City: SRIKAKULAM<br>Crop: Sunflower<br>Season: Kharif     <br>Production: 68.0</div>`)[0];
+                popup_d5bbf2a86a9a40f6aa484fef4a6cbb12.setContent(html_01d4e8e5e4594b9f67cbc38d744af8b4);
+            
+        
+
+        marker_59f9437ebb3ec3012d842d5e02587f54.bindPopup(popup_d5bbf2a86a9a40f6aa484fef4a6cbb12)
+        ;
+
+        
+    
+    
+            var marker_e3bd211d49dff18408faede33d2bf8cf = L.marker(
+                [25.4320478, 77.66438149999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_62d7378843f3c7947f3939f75d561019 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4797487a982e6afc6d6af671059b6546 = $(`<div id="html_4797487a982e6afc6d6af671059b6546" style="width: 100.0%; height: 100.0%;">City: SHIVPURI<br>Crop: Ginger<br>Season: Whole Year <br>Production: 12.0</div>`)[0];
+                popup_62d7378843f3c7947f3939f75d561019.setContent(html_4797487a982e6afc6d6af671059b6546);
+            
+        
+
+        marker_e3bd211d49dff18408faede33d2bf8cf.bindPopup(popup_62d7378843f3c7947f3939f75d561019)
+        ;
+
+        
+    
+    
+            var marker_2541af60d53b2bb68c8bc2fc869de336 = L.marker(
+                [26.1639014, 90.6253459],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_ea7fb697d7fcc5def6efb209fa7f033e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_577601ada56024d8f2f5da34e91fd719 = $(`<div id="html_577601ada56024d8f2f5da34e91fd719" style="width: 100.0%; height: 100.0%;">City: GOALPARA<br>Crop: Rice<br>Season: Summer     <br>Production: 37813.0</div>`)[0];
+                popup_ea7fb697d7fcc5def6efb209fa7f033e.setContent(html_577601ada56024d8f2f5da34e91fd719);
+            
+        
+
+        marker_2541af60d53b2bb68c8bc2fc869de336.bindPopup(popup_ea7fb697d7fcc5def6efb209fa7f033e)
+        ;
+
+        
+    
+    
+            var marker_7ec7ca7270b6c5a47d19247d1af7edd9 = L.marker(
+                [24.0078819, 76.7278803],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_4d8111eead3764d8bb07f31b46a3cb60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e2ed2311518d04969ee536d2457909d = $(`<div id="html_1e2ed2311518d04969ee536d2457909d" style="width: 100.0%; height: 100.0%;">City: RAJGARH<br>Crop: Jowar<br>Season: Kharif     <br>Production: 3000.0</div>`)[0];
+                popup_4d8111eead3764d8bb07f31b46a3cb60.setContent(html_1e2ed2311518d04969ee536d2457909d);
+            
+        
+
+        marker_7ec7ca7270b6c5a47d19247d1af7edd9.bindPopup(popup_4d8111eead3764d8bb07f31b46a3cb60)
+        ;
+
+        
+    
+    
+            var marker_e81d0db2a3499fdcac65a30cc1b98607 = L.marker(
+                [22.057437, 78.9381729],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_2c63a275e35067e78c2551104ae5f7a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79aa3d11b42a77133d9df4359ee5696d = $(`<div id="html_79aa3d11b42a77133d9df4359ee5696d" style="width: 100.0%; height: 100.0%;">City: CHHINDWARA<br>Crop: Onion<br>Season: Whole Year <br>Production: 20207.0</div>`)[0];
+                popup_2c63a275e35067e78c2551104ae5f7a9.setContent(html_79aa3d11b42a77133d9df4359ee5696d);
+            
+        
+
+        marker_e81d0db2a3499fdcac65a30cc1b98607.bindPopup(popup_2c63a275e35067e78c2551104ae5f7a9)
+        ;
+
+        
+    
+    
+            var marker_053738f5b65e3cba251ce6cbda314c90 = L.marker(
+                [25.1240603, 85.45947489999999],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_85310e9c87cf726ba90af69fe3e3b8c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e48ff85afa15483be779665e31d0b3f = $(`<div id="html_2e48ff85afa15483be779665e31d0b3f" style="width: 100.0%; height: 100.0%;">City: NALANDA<br>Crop: Ragi<br>Season: Kharif     <br>Production: 16.0</div>`)[0];
+                popup_85310e9c87cf726ba90af69fe3e3b8c6.setContent(html_2e48ff85afa15483be779665e31d0b3f);
+            
+        
+
+        marker_053738f5b65e3cba251ce6cbda314c90.bindPopup(popup_85310e9c87cf726ba90af69fe3e3b8c6)
+        ;
+
+        
+    
+    
+            var marker_9d2f94c279a509ee7afd837d73850187 = L.marker(
+                [23.9924669, 85.3636758],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_b5c911cddee776b85b15ee428a39da3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b64bca8b868958bec013b3946ac305d = $(`<div id="html_0b64bca8b868958bec013b3946ac305d" style="width: 100.0%; height: 100.0%;">City: HAZARIBAGH<br>Crop: Rice<br>Season: Winter     <br>Production: 85318.0</div>`)[0];
+                popup_b5c911cddee776b85b15ee428a39da3d.setContent(html_0b64bca8b868958bec013b3946ac305d);
+            
+        
+
+        marker_9d2f94c279a509ee7afd837d73850187.bindPopup(popup_b5c911cddee776b85b15ee428a39da3d)
+        ;
+
+        
+    
+    
+            var marker_fd8479291faa1051be0d2279aafb82f2 = L.marker(
+                [22.0363157, 74.903339],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_68773969da8ea15a9a8b343192b1e9e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce408729d0dd6a9f4227b561a3f012e3 = $(`<div id="html_ce408729d0dd6a9f4227b561a3f012e3" style="width: 100.0%; height: 100.0%;">City: BARWANI<br>Crop: Arhar/Tur<br>Season: Kharif     <br>Production: 1487.0</div>`)[0];
+                popup_68773969da8ea15a9a8b343192b1e9e4.setContent(html_ce408729d0dd6a9f4227b561a3f012e3);
+            
+        
+
+        marker_fd8479291faa1051be0d2279aafb82f2.bindPopup(popup_68773969da8ea15a9a8b343192b1e9e4)
+        ;
+
+        
+    
+    
+            var marker_6933f97bd5b5bd94dc7db839c4dd6a10 = L.marker(
+                [23.4225728, 76.2871419],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_047700ad25b9b10fb5b3a6787220c0af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_590dd2959bcc6f4adff79ad15aba3f13 = $(`<div id="html_590dd2959bcc6f4adff79ad15aba3f13" style="width: 100.0%; height: 100.0%;">City: SHAJAPUR<br>Crop: Sweet potato<br>Season: Whole Year <br>Production: 276.0</div>`)[0];
+                popup_047700ad25b9b10fb5b3a6787220c0af.setContent(html_590dd2959bcc6f4adff79ad15aba3f13);
+            
+        
+
+        marker_6933f97bd5b5bd94dc7db839c4dd6a10.bindPopup(popup_047700ad25b9b10fb5b3a6787220c0af)
+        ;
+
+        
+    
+    
+            var marker_2a1a4ffb17b51cd9f4cf23eeea05f1c3 = L.marker(
+                [16.7625516, 77.1442251],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_43d3c127843a51e071892aaf6f7d7e91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f60221003e8556c8f1070f0c7e953b0c = $(`<div id="html_f60221003e8556c8f1070f0c7e953b0c" style="width: 100.0%; height: 100.0%;">City: YADAGIRI<br>Crop: Castor seed<br>Season: Kharif     <br>Production: 19.0</div>`)[0];
+                popup_43d3c127843a51e071892aaf6f7d7e91.setContent(html_f60221003e8556c8f1070f0c7e953b0c);
+            
+        
+
+        marker_2a1a4ffb17b51cd9f4cf23eeea05f1c3.bindPopup(popup_43d3c127843a51e071892aaf6f7d7e91)
+        ;
+
+        
+    
+    
+            var marker_e109ff5e5d180a5619580db55d001597 = L.marker(
+                [11.9415915, 79.8083133],
+                {}
+            ).addTo(map_3111ccc0ddce7203fdb505ae81403388);
+        
+    
+        var popup_7cb7d101d43e3303beea8bc26ff5e5f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbc3df610d4b86edb8286ee8b7cf9432 = $(`<div id="html_cbc3df610d4b86edb8286ee8b7cf9432" style="width: 100.0%; height: 100.0%;">City: PONDICHERRY<br>Crop: Sesamum<br>Season: Kharif     <br>Production: 75.0</div>`)[0];
+                popup_7cb7d101d43e3303beea8bc26ff5e5f2.setContent(html_cbc3df610d4b86edb8286ee8b7cf9432);
+            
+        
+
+        marker_e109ff5e5d180a5619580db55d001597.bindPopup(popup_7cb7d101d43e3303beea8bc26ff5e5f2)
+        ;
+
+        
+    
+</script>
+</html>

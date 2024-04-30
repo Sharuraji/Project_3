@@ -1,0 +1,36 @@
+/* Add your CSS styles here */
+
+/* Map container */
+#map {
+    height: 50vh;
+    width: 100%;
+    float: left;
+}
+
+/* Chart container */
+#chart {
+    height: 50vh;
+    width: 50%;
+    float: right;
+}
+
+/* Bubble chart container */
+#bubble-chart {
+    height: 50vh;
+    width: 50%;
+    float: right;
+}
+
+/* Container for the state select dropdown */
+#stateSelectContainer,
+#citySelectContainer {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/* State and city select dropdowns */
+#stateSelect,
+#citySelect {
+    font-size: 16px;
+    color: blue;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization for Crops in India</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map-container {
+            width: 60%; /* Adjust width as needed */
+            float: left;
+            margin-bottom: 40px;
+        }
+
+        #chart-container {
+            width: 40%; /* Adjust width as needed */
+            float: left;
+        }
+
+        #map { 
+            height: 600px; /* Increase height for a bigger map */
+        }
+
+        #citySelectContainer {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        #citySelect {
+            color: #333;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        #citySelect option {
+            color: #333;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        #chart {
+            margin-top: 20px;
+        }
+
+        .plotly .modebar-container {
+            background-color: #f4f4f4;
+        }
+
+        .plotly .modebar-btn {
+            color: #333 !important;
+        }
+
+        .plotly .modebar-btn svg {
+            fill: #333;
+        }
+
+        .plotly .modebar-btn.active svg {
+            fill: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Visualization for Crops in India</h1>
+    
+    <!-- Add container for the map -->
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
+
+    <!-- Add container for the bar graph -->
+    <div id="chart-container">
+        <div id="citySelectContainer">
+            <label for="citySelect" style="color: #333; font-size: 20px;">Select City:</label>
+            <select id="citySelect" onchange="updateChart(this.value)">
+                <option value="">All Cities</option>
+                <!-- Populate options dynamically using JavaScript -->
+            </select>
+        </div>
+        <div id="chart"></div>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
